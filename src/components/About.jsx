@@ -13,33 +13,33 @@ function About() {
 
           <div className="about-text">
             <span className="section-tag">About Green Voltage</span>
-            <h2>Your Local Solar Experts</h2>
+            <h2>Our Mission</h2>
             <p>
-              Green Voltage is a locally owned company dedicated to helping homeowners
+              Green Voltage is a new Canadian company dedicated to helping homeowners
               reduce energy costs through professionally installed solar and lighting systems.
             </p>
             <p>
-              Our NABCEP-certified installers bring years of hands-on experience to every project.
-              We guide you through the entire process, from initial consultation and permitting
-              to installation and utility interconnection.
+              We are assembling a team of certified installers who will bring years of hands-on 
+              experience to every project. We will guide you through the entire process, from 
+              initial consultation and permitting to installation and utility interconnection.
             </p>
 
             <div className="about-highlights">
               <div className="highlight-item">
-                <span className="highlight-number">12+</span>
-                <span className="highlight-label">Years in Business</span>
+                <span className="highlight-number">2025</span>
+                <span className="highlight-label">Launch Year</span>
               </div>
               <div className="highlight-item">
-                <span className="highlight-number">1,200+</span>
-                <span className="highlight-label">Installations</span>
+                <span className="highlight-number">100%</span>
+                <span className="highlight-label">Commitment</span>
               </div>
               <div className="highlight-item">
-                <span className="highlight-number">A+</span>
-                <span className="highlight-label">BBB Rating</span>
+                <span className="highlight-number">Green</span>
+                <span className="highlight-label">Energy Focus</span>
               </div>
             </div>
 
-            <a href="#contact" className="btn btn-primary">Schedule Consultation</a>
+            <a href="#contact" className="btn btn-primary">Contact Us</a>
           </div>
         </div>
       </div>

@@ -664,3 +664,59 @@
   .hero-buttons .btn { width: 100%; max-width: 260px; }
   .hero-stats { flex-direction: column; gap: 1.5rem; }
 }
+
+/* ===== COMING SOON STYLES ===== */
+.coming-soon-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); }
+  50% { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
+}
+
+.coming-soon-label {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: var(--primary);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.service-image {
+  position: relative;
+}
+
+.coming-soon-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.coming-soon-contact .contact-info {
+  text-align: center;
+  max-width: 500px;
+}
+
+.coming-soon-contact .contact-details {
+  align-items: center;
+}
+
+.coming-soon-contact .contact-item {
+  justify-content: center;
+}

@@ -3,19 +3,19 @@ function Services() {
     {
       icon: "&#9751;",
       title: "Rooftop Solar Systems",
-      description: "Custom-designed solar installations for your home. Our certified technicians handle everything from permits to final inspection, ensuring a seamless transition to solar power.",
+      description: "Custom-designed solar installations for your home. Our certified technicians will handle everything from permits to final inspection, ensuring a seamless transition to solar power.",
       image: "https://www.intermtnwindandsolar.com/wp-content/uploads/2018/05/DJI_0005.jpg"
     },
     {
       icon: "&#128161;",
       title: "Smart Lighting",
-      description: "Integrated LED lighting systems with occupancy sensors and automated controls. Reduce lighting costs by up to 60% with intelligent scheduling.",
+      description: "Integrated LED lighting systems with occupancy sensors and automated controls. Expect to reduce lighting costs by up to 60% with intelligent scheduling.",
       image: "https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=600&q=80"
     },
     {
       icon: "&#9889;",
       title: "Motion-Activated Controls",
-      description: "Professional-grade motion sensors and smart switches for every room. Lights activate when you enter and turn off automatically when you leave.",
+      description: "Professional-grade motion sensors and smart switches for every room. Lights will activate when you enter and turn off automatically when you leave.",
       image: "https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?w=600&q=80"
     },
     {
@@ -30,9 +30,9 @@ function Services() {
     <section id="services" className="services">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">What We Do</span>
-          <h2>Residential Energy Solutions</h2>
-          <p>Complete home solar and lighting services from consultation to installation and ongoing support</p>
+          <span className="section-tag">Upcoming Services</span>
+          <h2>What We Will Offer</h2>
+          <p>Complete home solar and lighting services launching soon - from consultation to installation and ongoing support</p>
         </div>
 
         <div className="services-grid">
@@ -40,12 +40,12 @@ function Services() {
             <div key={index} className="service-card">
               <div className="service-image">
                 <img src={service.image} alt={service.title} loading="lazy" />
+                <span className="coming-soon-label">Coming Soon</span>
               </div>
               <div className="service-content">
                 <span className="service-icon" dangerouslySetInnerHTML={{ __html: service.icon }}></span>
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
-                <a href="#contact" className="service-link">Learn More &rarr;</a>
               </div>
             </div>
           ))}

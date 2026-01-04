@@ -11,30 +11,32 @@ function Hero() {
       </div>
 
       <div className="hero-content">
+        <span className="coming-soon-badge">Coming Soon</span>
         <h1>
-          Power Your Home with
-          <span className="highlight"> Solar Energy</span>
+          The Future of
+          <span className="highlight"> Home Energy</span>
         </h1>
         <p>
-          Professional residential solar installation and smart lighting solutions. 
-          Lower your energy bills and increase your home value with clean, renewable power.
+          Green Voltage is launching soon with professional residential solar installation
+          and smart lighting solutions. Get ready to lower your energy bills and power
+          your home with clean, renewable energy.
         </p>
         <div className="hero-buttons">
-          <a href="#contact" className="btn btn-primary">Get Free Estimate</a>
-          <a href="#services" className="btn btn-secondary">Our Services</a>
+          <a href="#services" className="btn btn-primary">Explore Services</a>
+          <a href="#contact" className="btn btn-secondary">Get Notified</a>
         </div>
         <div className="hero-stats">
           <div className="stat">
-            <span className="stat-number">1,200+</span>
-            <span className="stat-label">Homes Powered</span>
-          </div>
-          <div className="stat">
-            <span className="stat-number">35%</span>
-            <span className="stat-label">Avg. Bill Reduction</span>
+            <span className="stat-number">30%+</span>
+            <span className="stat-label">Expected Savings</span>
           </div>
           <div className="stat">
             <span className="stat-number">25yr</span>
             <span className="stat-label">System Warranty</span>
+          </div>
+          <div className="stat">
+            <span className="stat-number">24/7</span>
+            <span className="stat-label">Support Planned</span>
           </div>
         </div>
       </div>
